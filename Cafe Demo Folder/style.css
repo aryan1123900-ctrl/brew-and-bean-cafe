@@ -1,0 +1,302 @@
+
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf3;
+    color: #3e2723;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #3e2723;
+    padding: 15px 8%;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+    color: #f5c16c !important;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #f5c16c !important;
+}
+
+/* Home Section */
+.home-section {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1600");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.home-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.home-section p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.menu-btn {
+    background-color: #c58b45;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.menu-btn:hover {
+    background-color: #a66e30;
+    color: white;
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about-section h2,
+.menu-section h2,
+.contact-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Menu Section */
+.menu-section {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.menu-section h4 {
+    background-color: #f2e4d3;
+    padding: 25px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.menu-section p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #a66e30;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .home-section {
+        min-height: 400px;
+        padding: 30px 15px;
+    }
+
+    .home-section h1 {
+        font-size: 34px;
+    }
+
+    .home-section p {
+        font-size: 17px;
+    }
+
+    .about-section h2,
+    .menu-section h2,
+    .contact-section h2 {
+        font-size: 27px;
+    }
+}
+
+/* Menu Subtitle */
+.menu-subtitle {
+    font-size: 17px;
+    color: #795548;
+    margin-bottom: 35px;
+}
+
+/* Menu Cards */
+.menu-card {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu-card h4 {
+    margin-top: 18px;
+    font-weight: bold;
+    background: none;
+    padding: 0;
+}
+
+.menu-card p {
+    color: #795548;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.menu-card h5 {
+    color: #b77935;
+    font-weight: bold;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1da851;
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #241713;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.footer-section h3 {
+    color: #f5c16c;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Google Maps */
+.map-container {
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 0 15px;
+}
+
+.map-container h3 {
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 550px;
+    margin: 40px auto 0;
+    padding: 25px;
+    background-color: #fffaf3;
+    color: #3e2723;
+    border-radius: 12px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #c8b6a6;
+    border-radius: 6px;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #a66e30;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #79502a;
+}
+
+#formStatus {
+    margin-top: 15px;
+}
+
+/* Floating WhatsApp Button */
+.floating-whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.floating-whatsapp:hover {
+    background-color: #1da851;
+    color: white;
+    text-decoration: none;
+}

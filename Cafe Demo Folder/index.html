@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brew & Bean Cafe</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Brew & Bean</a>
+
+        <button class="navbar-toggler" type="button"
+        data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container text-center">
+            <h1>Fresh Coffee, Fresh Mood</h1>
+            <p>Your favourite coffee, made with love.</p>
+            <a href="#menu" class="btn menu-btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section container">
+        <h2>About Us</h2>
+        <p>Welcome to Brew & Bean Cafe. Enjoy delicious coffee,
+        tasty snacks and a relaxing atmosphere.</p>
+    </section>
+
+    <!-- Menu Section -->
+    
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section container">
+        <h2>Our Special Menu</h2>
+        <p class="menu-subtitle">Freshly prepared, just for you!</p>
+
+        <div class="row">
+
+            <!-- Item 1 -->
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?w=600"
+                    alt="Cappuccino coffee">
+                    <h4>Cappuccino</h4>
+                    <p>Rich and creamy coffee.</p>
+                    <h5>₹120</h5>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600"
+                    alt="Cold coffee">
+                    <h4>Cold Coffee</h4>
+                    <p>Chilled coffee with milk.</p>
+                    <h5>₹150</h5>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="col-md-4">
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600"
+                    alt="Chocolate brownie">
+                    <h4>Chocolate Brownie</h4>
+                    <p>Delicious chocolate dessert.</p>
+                    <h5>₹100</h5>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    </section>
+
+    <!-- Contact Section -->
+    
+    <!-- Google Maps -->
+    <div class="map-container">
+        <h3>Find Us Here</h3>
+
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13964038.37708289!2d56.07620614999998!3d31.2985194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5bb1c2ec81cb%3A0x3021079ed31e86c0!2sBrew%20N%20Beans%20cafe!5e0!3m2!1sen!2sin!4v1793884466903!5m2!1sen!2sin" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Visit Us Today!</h2>
+        <p>Good Coffee. Good Vibes. Great Memories.</p>
+
+        <p>Have questions or want to know more?</p>
+
+        <a href="https://wa.me/91YOURNUMBER"
+        class="whatsapp-btn"
+        target="_blank">
+            Contact Us on WhatsApp
+        </a>
+        
+    <!-- Contact Form -->
+    <div class="contact-form">
+        <h3>Send Us a Message</h3>
+
+        <form id="contactForm">
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Your Name"
+                required>
+
+            <input
+                type="email"
+                id="customerEmail"
+                placeholder="Your Email"
+                required>
+
+            <textarea
+                id="customerMessage"
+                placeholder="Your Message"
+                required></textarea>
+
+            <button type="submit">Submit Message</button>
+
+            <p id="formStatus"></p>
+        </form>
+    </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <h3>Brew & Bean Cafe</h3>
+        <p>Making every coffee moment special.</p>
+        <p>Opening Hours: 9:00 AM – 10:00 PM</p>
+        <p>© 2026 Brew & Bean Cafe. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    
+    <a href="https://wa.me/91YOURNUMBER"
+    class="floating-whatsapp"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with us on WhatsApp">
+        WhatsApp
+    </a>
+
+</body>
+</html>
